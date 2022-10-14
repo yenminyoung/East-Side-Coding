@@ -94,7 +94,26 @@
     <!--     Clubs Offered -->
     <h3> Coding Clubs</h3>
     <p> Girls Who Code is open to all Middle and High School students who identify as female, transwoman, femme, or non-binary, who wish to learn coding in a female-centered environment. We meet every other Tuesday after school in Room 115.</p>
-   
+    <p>Want to join Girls Who Code?</p>
+    <form action="/action_page.php">
+<!--       Input Name and email-->
+      <label for="fname">First Name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last Name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="advisor">Your Advisor:</label><br>
+      <input type="text" id="advisor" name="advisor"><br>
+      <label for="email">East Side Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+<!--       Input grade band -->
+      <p>Which grade are you in?</p>
+      <input type="radio" id="MS" name="grade_band" value="MS">
+      <label for="MS"> 6-8 </label><br>
+      <input type="radio" id="HS" name="grade_band" value="HS">
+      <label for="HS"> 9-12 </label><br><br>
+<!--       Submit Button -->
+      <input type="submit" value="Submit">
+    </form>
   </body>
   
 </html>
